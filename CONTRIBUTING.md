@@ -1,6 +1,6 @@
 # Cómo colaborar
 
-Equipo: Filiberto, Diana, Alejandra y Luis. Ver [docs/equipo](docs/equipo/README.md).
+Equipo: Diana, Alejandra, Luis y Filiberto. Ver [docs/equipo](docs/equipo/README.md).
 
 ## Ramas
 
