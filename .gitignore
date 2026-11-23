@@ -15,10 +15,12 @@ models/*
 !models/.gitkeep
 
 # Obsidian: solo se versiona configuración básica
-docs/.obsidian/workspace*.json
-docs/.obsidian/cache
-docs/.obsidian/plugins/
-docs/.trash/
+.obsidian/workspace*.json
+.obsidian/cache
+.obsidian/plugins/
+.obsidian/community-plugins.json
+.obsidian/graph.json
+.trash/
 
 # R / Positron
 .Rhistory

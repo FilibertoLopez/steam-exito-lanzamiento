@@ -8,7 +8,7 @@ Proyecto Final de **Aprendizaje de Máquina** (Maestría en Ciencias de la Compu
 
 | Carpeta | Contenido |
 |---|---|
-| [`docs/`](docs/00-indice.md) | Documentación en Markdown (bóveda de Obsidian) |
+| [`docs/`](docs/00-indice.md) | Documentación en Markdown (empieza en el índice) |
 | [`notebooks/`](notebooks/) | Notebooks de Jupyter con el análisis en Python |
 | [`src/steam_exito/`](src/steam_exito/) | Funciones reutilizables |
 | [`data/`](data/README.md) | Datos (solo muestra y documentación; los crudos no se versionan) |
@@ -20,6 +20,10 @@ Proyecto Final de **Aprendizaje de Máquina** (Maestría en Ciencias de la Compu
 ## Equipo
 
 Filiberto, Diana, Alejandra y Luis. Ver [cómo colaborar](CONTRIBUTING.md).
+
+## Abrir en Obsidian
+
+En Obsidian elige **Open folder as vault** y selecciona la carpeta raíz del repositorio (`steam-exito-lanzamiento`). La configuración compartida está en `.obsidian/app.json`: enlaces Markdown relativos (compatibles con GitHub), adjuntos en `docs/assets/figuras` y las carpetas `data/` y `models/` excluidas. Empieza por [`docs/00-indice.md`](docs/00-indice.md).
 
 ## Reproducir
 

@@ -1,6 +1,6 @@
 # Índice del proyecto
 
-Documentación del Proyecto Final. Ábrela en Obsidian (esta carpeta es la bóveda) o directamente en GitHub.
+Documentación del Proyecto Final. Ábrela en Obsidian (la bóveda es la carpeta raíz del repositorio) o directamente en GitHub.
 
 ## Documentos
 
