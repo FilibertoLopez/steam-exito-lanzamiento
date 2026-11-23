@@ -28,3 +28,8 @@ docs/.trash/
 # Sistema
 .DS_Store
 Thumbs.db
+
+# Grabaciones de Zoom (se comparten por enlace, no en el repositorio)
+*.mp4
+*.m4a
+*.mov

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Acuerdos del equipo
+    url: https://github.com/FilibertoLopez/steam-exito-lanzamiento/blob/main/docs/equipo/acuerdos.md
+    about: Lista completa de acuerdos, responsables y status
+  - name: Registro de sesiones
+    url: https://github.com/FilibertoLopez/steam-exito-lanzamiento/blob/main/docs/equipo/sesiones/README.md
+    about: Resúmenes, grabaciones y transcripciones de Zoom

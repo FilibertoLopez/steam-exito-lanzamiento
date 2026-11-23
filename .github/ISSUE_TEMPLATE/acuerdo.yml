@@ -1,0 +1,42 @@
+name: Acuerdo
+description: Acuerdo tomado en una sesión que requiere seguimiento
+title: "[A-0XX] "
+labels: ["tipo: acuerdo", "status: pendiente"]
+body:
+  - type: input
+    id: id
+    attributes:
+      label: ID del acuerdo
+      description: El mismo ID que en docs/equipo/acuerdos.md
+      placeholder: A-001
+    validations:
+      required: true
+  - type: textarea
+    id: acuerdo
+    attributes:
+      label: Acuerdo
+      description: Qué se acordó, en una o dos frases
+    validations:
+      required: true
+  - type: dropdown
+    id: responsable
+    attributes:
+      label: Responsable
+      options: [Filiberto, Diana, Alejandra, Luis]
+    validations:
+      required: true
+  - type: input
+    id: fecha_limite
+    attributes:
+      label: Fecha límite
+      placeholder: AAAA-MM-DD
+  - type: input
+    id: sesion
+    attributes:
+      label: Sesión de origen
+      placeholder: docs/equipo/sesiones/AAAA-MM-DD-tema.md
+  - type: textarea
+    id: criterio
+    attributes:
+      label: Criterio de cumplimiento
+      description: ¿Cómo sabremos que está cumplido?

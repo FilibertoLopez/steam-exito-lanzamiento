@@ -20,6 +20,12 @@ Documentación del Proyecto Final. Ábrela en Obsidian (esta carpeta es la bóve
 - [0002 Mínimo de reseñas](decisiones/0002-minimo-resenas.md)
 - [0003 Partición temporal](decisiones/0003-particion-temporal.md)
 
+## Equipo
+
+- [Equipo y flujo de trabajo](equipo/README.md)
+- [Acuerdos](equipo/acuerdos.md)
+- [Registro de sesiones](equipo/sesiones/README.md)
+
 ## Otros
 
 - [Bitácora](bitacora/README.md)

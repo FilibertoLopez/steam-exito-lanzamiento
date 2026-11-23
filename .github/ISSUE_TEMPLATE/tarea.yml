@@ -1,0 +1,32 @@
+name: Tarea
+description: Trabajo técnico (análisis, notebook, documento, presentación)
+labels: ["tipo: tarea", "status: pendiente"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Área
+      options: [Datos y limpieza, EDA, Variables, Modelado, Documentación, Presentación, Otro]
+    validations:
+      required: true
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción
+    validations:
+      required: true
+  - type: dropdown
+    id: responsable
+    attributes:
+      label: Responsable
+      options: [Filiberto, Diana, Alejandra, Luis]
+  - type: input
+    id: acuerdo
+    attributes:
+      label: Acuerdo relacionado (opcional)
+      placeholder: A-001
+  - type: textarea
+    id: entregable
+    attributes:
+      label: Entregable esperado
+      description: Archivo(s) o resultado concreto
