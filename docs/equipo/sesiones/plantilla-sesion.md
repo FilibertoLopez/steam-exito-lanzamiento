@@ -42,6 +42,12 @@ Copiar a [acuerdos.md](../acuerdos.md) con su ID.
 |---|---|---|
 |  |  |  |
 
+## Revisión de por-clasificar
+
+| Archivo | Decisión (mover a… / eliminar) |
+|---|---|
+|  |  |
+
 ## Próxima sesión
 
 - **Fecha:** 

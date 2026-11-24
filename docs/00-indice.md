@@ -25,6 +25,7 @@ Documentación del Proyecto Final. Ábrela en Obsidian (la bóveda es la carpeta
 - [Equipo y flujo de trabajo](equipo/README.md)
 - [Acuerdos](equipo/acuerdos.md)
 - [Registro de sesiones](equipo/sesiones/README.md)
+- [Por clasificar](../por-clasificar/README.md)
 
 ## Otros
 

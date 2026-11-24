@@ -15,6 +15,7 @@ Proyecto Final de **Aprendizaje de Máquina** (Maestría en Ciencias de la Compu
 | [`reports/`](reports/) | Figuras, métricas, presentación y conclusiones (PDF) |
 | [`references/`](references/README.md) | Referencias bibliográficas y fichas de lectura |
 | [`R/`](R/) | Exploración opcional en R / Positron |
+| [`por-clasificar/`](por-clasificar/README.md) | Material temporal que aún no tiene lugar definido |
 | [`docs/equipo/`](docs/equipo/README.md) | Coordinación del equipo: [acuerdos](docs/equipo/acuerdos.md) y [sesiones de Zoom](docs/equipo/sesiones/README.md) |
 
 ## Equipo
