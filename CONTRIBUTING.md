@@ -25,6 +25,11 @@ Equipo: Diana, Alejandra, Luis y Filiberto. Ver [docs/equipo](docs/equipo/README
 - PDF, PPTX, DOCX y XLSX se suben con Git LFS (configurado en `.gitattributes`). Cada integrante debe ejecutar `git lfs install` una vez.
 - Las grabaciones de Zoom no se suben: se enlazan en el [registro de sesiones](docs/equipo/sesiones/README.md).
 
+## Material sin lugar definido
+
+- Súbelo a tu carpeta en [`por-clasificar/`](por-clasificar/README.md) y regístralo en su tabla.
+- En cada sesión se revisa la carpeta y cada archivo se mueve a su destino o se elimina.
+
 ## Seguimiento
 
 - **Acuerdos:** [docs/equipo/acuerdos.md](docs/equipo/acuerdos.md) es la lista oficial.
