@@ -183,11 +183,11 @@ Education, Episodic y Short quedan en el filtro solo cuando son el único géner
 
 La variable objetivo acordada es la proporción de reseñas positivas:
 
-\[
+$$
 \text{positiveRatio} = \frac{positive}{positive + negative}
-\]
+$$
 
-El volumen \( \log(1 + positive + negative) \) queda como medida complementaria de alcance. Las dos se construyen solo con juegos de las cohortes acordadas (se excluyen 2025 y 2026). Los detalles están en [0001 Variable objetivo](decisiones/0001-variable-objetivo.md) y [0002 Mínimo de reseñas](decisiones/0002-minimo-de-resenas.md).
+El volumen \( $\log(1 + positive + negative)$ \) queda como medida complementaria de alcance. Las dos se construyen solo con juegos de las cohortes acordadas (se excluyen 2025 y 2026). Los detalles están en [0001 Variable objetivo](decisiones/0001-variable-objetivo.md) y [0002 Mínimo de reseñas](decisiones/0002-minimo-de-resenas.md).
 
 ## Problemas de calidad
 
