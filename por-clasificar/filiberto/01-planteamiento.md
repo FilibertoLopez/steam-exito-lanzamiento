@@ -33,7 +33,7 @@ Quien financia o desarrolla un juego tiene que decidir **antes del lanzamiento**
 
 ## Definición de éxito
 
-El éxito se mide con la **proporción de reseñas positivas**, acordada como variable objetivo en la [sesión del 2026-11-22](equipo/sesiones/resumenes-zoom/2026-11-22-Exploración-de-datos.md):
+El éxito se mide con la **proporción de reseñas positivas**, acordada como variable objetivo en la [sesión del 2026-11-22](equipo/sesiones/resumenes-zoom/2026-11-22-exploracion-de-datos.md):
 
 $$
 p_i = \frac{\text{positive}_i}{\text{positive}_i + \text{negative}_i}

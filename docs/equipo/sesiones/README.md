@@ -4,7 +4,7 @@ Una fila por sesión de Zoom (F = Filiberto, D = Diana, A = Alejandra, L = Luis)
 
 | Fecha | Tema | Asistentes | Notas de sesión | Resumen Zoom | Transcripción | Grabación | Acuerdos |
 |---|---|---|---|---|---|---|---|
-| 2026-11-22 | Exploración de datos | F, D, A, L | [notas](2026-11-22-Exploración-de-datos.md) | [resumen](resumenes-zoom/2026-11-22-Exploración-de-datos.md) | [txt](transcripciones/2026-11-22-Exploración-de-datos.txt) | [Zoom](https://us06web.zoom.us/rec/share/KMSer_E2vuT2Soo-Bg_wwVoEhs55-5wlIRt8xKIAZ09ZIuJXAZWPwCUpCdLMOwPh.hEf57Mp54VvxGSv1) (código: `6PXv&AUu`) | A-001 a A-004, D-001 a D-006 |
+| 2026-11-22 | Exploración de datos | F, D, A, L | [notas](2026-11-22-exploracion-de-datos.md) | [resumen](resumenes-zoom/2026-11-22-exploracion-de-datos.md) | [txt](transcripciones/2026-11-22-exploracion-de-datos.txt) | [Zoom](https://us06web.zoom.us/rec/share/KMSer_E2vuT2Soo-Bg_wwVoEhs55-5wlIRt8xKIAZ09ZIuJXAZWPwCUpCdLMOwPh.hEf57Mp54VvxGSv1) (código: `6PXv&AUu`) | A-001 a A-004, D-001 a D-006 |
 
 ## Grabaciones
 
