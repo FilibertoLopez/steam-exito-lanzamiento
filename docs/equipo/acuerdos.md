@@ -21,7 +21,6 @@ Lista única de acuerdos tomados en las sesiones. Cada acuerdo tiene un responsa
 
 | ID | Fecha | Acuerdo | Responsable | Fecha límite | Status | Sesión | Issue | Notas |
 |---|---|---|---|---|---|---|---|---|
-| A-001 | 2026-11-22 | Enviar invitación al repositorio de GitHub a los integrantes | Filiberto | 2026-11-22 | Cumplido | [2026-11-22](sesiones/2026-11-22-exploracion-de-datos.md) |  | Diana (@dianaba27) y Luis (@LuisRabasa) ya son colaboradores; la invitación a Alejandra (@alename) sigue sin aceptarse (2026-11-24). |
 | A-002 | 2026-11-22 | Compartir los EDA individuales y propuestas de variables | Todos | Próxima sesión | En curso | [2026-11-22](sesiones/2026-11-22-exploracion-de-datos.md) |  | En `por-clasificar/` (2026-11-24): Diana (docx, ipynb), Filiberto (planteamiento, diccionario), Luis (docx, ipynb). Falta Alejandra. Falta la propuesta de variables de cada quien. |
 | A-003 | 2026-11-22 | Probar umbrales mínimos de reseñas (5, 30, 50, 100) y filtros de antigüedad; medir el impacto en tamaño del dataset y calidad del modelo | Todos | Próxima sesión | Pendiente | [2026-11-22](sesiones/2026-11-22-exploracion-de-datos.md) |  | Base existente: `notebooks/borradores/antiguedadVsResenas.py` y `percentilesPorCohorte.py`. |
 | A-004 | 2026-11-22 | Crear variables derivadas de desarrolladores (juegos previos, curva de aprendizaje, éxito histórico promedio) en lugar de usar su nombre | Todos | Próxima sesión | Pendiente | [2026-11-22](sesiones/2026-11-22-exploracion-de-datos.md) |  | Evitar fuga de información: calcular solo con juegos lanzados antes de cada juego. |
@@ -35,6 +34,7 @@ Mueve aquí los acuerdos *Cumplidos* o *Cancelados* para mantener corta la tabla
 
 | ID | Fecha | Acuerdo | Responsable | Fecha de cierre | Status | Sesión | Issue | Notas |
 |---|---|---|---|---|---|---|---|---|
+| A-001 | 2026-11-22 | Enviar invitación al repositorio de GitHub a los integrantes | Filiberto | 2026-11-23 | Cumplido | [2026-11-22](sesiones/2026-11-22-exploracion-de-datos.md) |  | Invitaciones enviadas el 2026-11-23 a los usuarios de GitHub (no a los correos del ITAM, como se dijo en la sesión). Diana (@dianaba27) y Luis (@LuisRabasa) ya son colaboradores. La de Alejandra (@alename) se reenvió el 2026-11-24 (vence el 2026-12-01) y sigue sin aceptarse; se le recordó por correo. |
 
 ## Decisiones vigentes
 
