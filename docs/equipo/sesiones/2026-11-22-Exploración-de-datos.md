@@ -4,7 +4,8 @@ tema: Exploración de datos
 hora: 12:07–13:45
 asistentes: [Filiberto, Diana, Alejandra, Luis]
 moderador: Filiberto
-grabacion: 
+grabacion: https://us06web.zoom.us/rec/share/KMSer_E2vuT2Soo-Bg_wwVoEhs55-5wlIRt8xKIAZ09ZIuJXAZWPwCUpCdLMOwPh.hEf57Mp54VvxGSv1 
+Código de acceso: 6PXv&AUu
 resumen_zoom: resumenes-zoom/2026-11-22-Exploración-de-datos.md
 transcripcion: transcripciones/2026-11-22-Exploración-de-datos.txt
 ---
