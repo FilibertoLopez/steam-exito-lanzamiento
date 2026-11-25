@@ -96,3 +96,4 @@ Primera sesión registrada; no hay acuerdos anteriores.
 
 - **Fecha:** _por definir_
 - **Temas:** revisión de EDA individuales, elección de variables predictoras, reparto de la limpieza.
+- **Preguntas abiertas:** trasladadas al [registro de sesiones](README.md#próxima-sesión).
