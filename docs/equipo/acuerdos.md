@@ -1,6 +1,6 @@
 ---
 titulo: Acuerdos del equipo
-actualizado: 2026-11-24
+actualizado: 2026-11-25
 ---
 
 # Acuerdos del equipo
@@ -25,6 +25,9 @@ Lista única de acuerdos tomados en las sesiones. Cada acuerdo tiene un responsa
 | A-002 | 2026-11-22 | Compartir los EDA individuales y propuestas de variables | Todos | Próxima sesión | En curso | [2026-11-22](sesiones/2026-11-22-exploracion-de-datos.md) |  | En `por-clasificar/` (2026-11-24): Diana (docx, ipynb), Filiberto (planteamiento, diccionario), Luis (docx, ipynb). Falta Alejandra. Falta la propuesta de variables de cada quien. |
 | A-003 | 2026-11-22 | Probar umbrales mínimos de reseñas (5, 30, 50, 100) y filtros de antigüedad; medir el impacto en tamaño del dataset y calidad del modelo | Todos | Próxima sesión | Pendiente | [2026-11-22](sesiones/2026-11-22-exploracion-de-datos.md) |  | Base existente: `notebooks/borradores/antiguedadVsResenas.py` y `percentilesPorCohorte.py`. |
 | A-004 | 2026-11-22 | Crear variables derivadas de desarrolladores (juegos previos, curva de aprendizaje, éxito histórico promedio) en lugar de usar su nombre | Todos | Próxima sesión | Pendiente | [2026-11-22](sesiones/2026-11-22-exploracion-de-datos.md) |  | Evitar fuga de información: calcular solo con juegos lanzados antes de cada juego. |
+| A-005 | 2026-11-22 | Definir una fecha de corte fija para la descarga de datos y usar esa versión en todo el proyecto | Todos | Próxima sesión | Pendiente | [2026-11-22](sesiones/2026-11-22-exploracion-de-datos.md) |  | Transcripción 12:29. Los datos actuales son la versión del 2026-11-19 (descarga de Filiberto). Registrar la fecha en `data/README.md`. |
+| A-006 | 2026-11-22 | En la próxima sesión, acordar las variables del modelo a partir de las propuestas de cada integrante y repartir la limpieza de datos | Todos | Próxima sesión | Pendiente | [2026-11-22](sesiones/2026-11-22-exploracion-de-datos.md) |  | Transcripción 12:47 (propuesta de Diana). Depende de A-002. |
+| A-007 | 2026-11-22 | Analizar la relación entre los idiomas y la proporción de reseñas positivas (diagrama de dispersión) antes de incluirlos como variable | Todos | Próxima sesión | Pendiente | [2026-11-22](sesiones/2026-11-22-exploracion-de-datos.md) |  | Transcripción 13:14–13:15 (propuesta de Luis). No se asignó responsable en la sesión. |
 
 ## Acuerdos cerrados
 
@@ -45,6 +48,9 @@ Decisiones del equipo que condicionan el análisis. No tienen status: siguen vig
 | D-004 | 2026-11-22 | Eliminar el registro con precio atípico de 107,000 dólares | [2026-11-22](sesiones/2026-11-22-exploracion-de-datos.md) | [04 Limpieza](../04-estrategia-limpieza.md) |
 | D-005 | 2026-11-22 | Separar etiquetas de marketing (Indie, Early Access, Free to Play) de los géneros; eliminar categorías que no son juegos | [2026-11-22](sesiones/2026-11-22-exploracion-de-datos.md) | [05 Ingeniería de variables](../05-ingenieria-variables.md) |
 | D-006 | 2026-11-22 | No usar el nombre del desarrollador como variable; derivar variables a partir de su historial | [2026-11-22](sesiones/2026-11-22-exploracion-de-datos.md) | [05 Ingeniería de variables](../05-ingenieria-variables.md) |
+| D-007 | 2026-11-22 | No usar procesamiento de lenguaje natural: se descartan como variables los textos de descripción y de reseñas | [2026-11-22](sesiones/2026-11-22-exploracion-de-datos.md) | [05 Ingeniería de variables](../05-ingenieria-variables.md) |
+| D-008 | 2026-11-22 | Por ahora no ponderar por número de reseñas: la muestra se define solo con el umbral mínimo de reseñas y el filtro de antigüedad | [2026-11-22](sesiones/2026-11-22-exploracion-de-datos.md) | [0002 Mínimo de reseñas](../decisiones/0002-minimo-de-resenas.md), [04 Limpieza](../04-estrategia-limpieza.md) |
+| D-009 | 2026-11-22 | Por ahora conservar tanto el desarrollador como el publisher, mediante variables derivadas, para controlar el efecto de la fama (complementa D-006) | [2026-11-22](sesiones/2026-11-22-exploracion-de-datos.md) | [05 Ingeniería de variables](../05-ingenieria-variables.md) |
 
 ## Reglas
 

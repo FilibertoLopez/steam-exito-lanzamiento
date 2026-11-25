@@ -41,7 +41,7 @@ Sesión por Zoom de 12:07 a 13:45 (≈ 1 h 38 min). Asistieron los cuatro integr
 
 ## Discusión y decisiones
 
-Registradas en [acuerdos.md](../acuerdos.md#decisiones-vigentes) como D-001 a D-006:
+Registradas en [acuerdos.md](../acuerdos.md#decisiones-vigentes) como D-001 a D-009:
 
 - Repositorio compartido en GitHub (requisito del profesor).
 - Excluir juegos lanzados en 2025 y 2026 (historial de reseñas insuficiente).
@@ -49,6 +49,9 @@ Registradas en [acuerdos.md](../acuerdos.md#decisiones-vigentes) como D-001 a D-
 - Eliminar el registro con precio atípico de 107,000 dólares.
 - Separar etiquetas de marketing (*Indie*, *Early Access*, *Free to Play*) de los géneros.
 - No usar el nombre del desarrollador; derivar variables (juegos previos, éxito histórico promedio).
+- No usar procesamiento de lenguaje natural (descripciones ni texto de reseñas).
+- Por ahora no ponderar por número de reseñas; solo umbral mínimo y filtro de antigüedad.
+- Por ahora conservar desarrollador y publisher mediante variables derivadas, para controlar el efecto de la fama.
 
 Decisiones técnicas por formalizar en [decisiones](../../decisiones/): variable objetivo ([0001](../../decisiones/0001-variable-objetivo.md)), mínimo de reseñas ([0002](../../decisiones/0002-minimo-de-resenas.md)) y corte temporal ([0003](../../decisiones/0003-particion-temporal.md)).
 
@@ -62,8 +65,6 @@ Decisiones técnicas por formalizar en [decisiones](../../decisiones/): variable
 ## Preguntas abiertas
 
 - Umbral mínimo de reseñas: ¿30, 50 o 100? (también se mencionó 5).
-- ¿Ponderar por volumen de reseñas, o eso sesga el modelo hacia éxitos conocidos?
-- ¿El número o tipo de idiomas se relaciona con el éxito? Revisar con diagrama de dispersión antes de incluirlo.
 - ¿La plataforma (Windows, Mac, Linux) diferencia, si casi todos son para Windows?
 - Inicio del periodo: ¿desde 2019 (propuesta de Alejandra) o todo el historial?
 
@@ -77,6 +78,9 @@ Copiados a [acuerdos.md](../acuerdos.md).
 | A-002 | Compartir los EDA individuales y propuestas de variables | Todos | Próxima sesión |
 | A-003 | Probar umbrales de reseñas y filtros de antigüedad (impacto en tamaño y calidad) | Todos | Próxima sesión |
 | A-004 | Crear variables derivadas de desarrolladores (curva de aprendizaje, éxito histórico) | Todos | Próxima sesión |
+| A-005 | Definir una fecha de corte fija para la descarga de datos | Todos | Próxima sesión |
+| A-006 | Acordar las variables del modelo y repartir la limpieza | Todos | Próxima sesión |
+| A-007 | Analizar idiomas vs. proporción positiva (diagrama de dispersión) | Todos | Próxima sesión |
 
 ## Revisión de acuerdos anteriores
 
