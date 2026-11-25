@@ -5,9 +5,9 @@
 | Integrante | Usuario GitHub | Rol / áreas principales | Etiqueta |
 |---|---|---|---|
 | Filiberto | [@FilibertoLopez](https://github.com/FilibertoLopez) | _por definir_ | `resp: Filiberto` |
-| Diana | _pendiente_ | _por definir_ | `resp: Diana` |
-| Alejandra | _pendiente_ | _por definir_ | `resp: Alejandra` |
-| Luis | _pendiente_ | _por definir_ | `resp: Luis` |
+| Diana | [@dianaba27](https://github.com/dianaba27) | _por definir_ | `resp: Diana` |
+| Alejandra | [@alename](https://github.com/alename) | _por definir_ | `resp: Alejandra` |
+| Luis | [@LuisRabasa](https://github.com/LuisRabasa) | _por definir_ | `resp: Luis` |
 
 ## Dónde está cada cosa
 
