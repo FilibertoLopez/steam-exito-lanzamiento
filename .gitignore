@@ -33,3 +33,5 @@ Thumbs.db
 *.mp4
 *.m4a
 *.mov
+crear_issues.py
+instalar_esqueleto.py

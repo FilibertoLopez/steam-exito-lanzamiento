@@ -1,5 +1,6 @@
 pandas
 numpy
+scipy
 scikit-learn
 matplotlib
 seaborn
@@ -10,3 +11,4 @@ lightgbm
 shap
 pyarrow
 nbstripout
+pytest
