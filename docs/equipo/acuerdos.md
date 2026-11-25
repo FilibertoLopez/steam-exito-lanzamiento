@@ -34,7 +34,7 @@ Mueve aquí los acuerdos *Cumplidos* o *Cancelados* para mantener corta la tabla
 
 | ID | Fecha | Acuerdo | Responsable | Fecha de cierre | Status | Sesión | Issue | Notas |
 |---|---|---|---|---|---|---|---|---|
-| A-001 | 2026-11-22 | Enviar invitación al repositorio de GitHub a los integrantes | Filiberto | 2026-11-23 | Cumplido | [2026-11-22](sesiones/2026-11-22-exploracion-de-datos.md) |  | Invitaciones enviadas el 2026-11-23 a los usuarios de GitHub (no a los correos del ITAM, como se dijo en la sesión). Diana (@dianaba27) y Luis (@LuisRabasa) ya son colaboradores. La de Alejandra (@alename) se reenvió el 2026-11-24 (vence el 2026-12-01) y sigue sin aceptarse; se le recordó por correo. |
+| A-001 | 2026-11-22 | Enviar invitación al repositorio de GitHub a los integrantes | Filiberto | 2026-11-23 | Cumplido | [2026-11-22](sesiones/2026-11-22-exploracion-de-datos.md) |  | Invitaciones enviadas el 2026-11-23 a los usuarios de GitHub (no a los correos del ITAM, como se dijo en la sesión). Diana (@dianaba27) y Luis (@LuisRabasa) ya son colaboradores. La de Alejandra (@alename) se reenvió el 2026-11-24 y ya fue aceptada (2026-11-25). |
 
 ## Decisiones vigentes
 

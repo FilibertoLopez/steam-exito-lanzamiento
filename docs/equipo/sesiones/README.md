@@ -10,6 +10,7 @@ Una fila por sesión de Zoom (F = Filiberto, D = Diana, A = Alejandra, L = Luis)
 
 - **Fecha:** 2026-11-25 (miércoles), 18:00 (hora de Ciudad de México)
 - **Lugar:** Zoom
+- **Agenda:** [2026-11-25-variables-y-limpieza](2026-11-25-variables-y-limpieza.md)
 - **Temas previstos:** revisión de EDA individuales, elección de variables predictoras y reparto de la limpieza (ver [notas del 2026-11-22](2026-11-22-exploracion-de-datos.md#próxima-sesión)).
 - **Acuerdos a revisar:** A-002 a A-007, con fecha límite "Próxima sesión" ([acuerdos](../acuerdos.md#acuerdos-abiertos)).
 
