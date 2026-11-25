@@ -33,7 +33,7 @@ Antes de empezar: activar la grabación en la nube con transcripción, para pode
 | ID | Acuerdo | Status al 2026-11-25 | A revisar en sesión |
 |---|---|---|---|
 | A-002 | Compartir los EDA individuales y propuestas de variables | En curso | Ya están los de Diana, Luis y Filiberto en `por-clasificar/`; falta Alejandra. Nadie ha entregado todavía su lista de variables propuestas. |
-| A-003 | Probar umbrales de reseñas y filtros de antigüedad | Pendiente | Resultados de cada quien; el notebook de Diana muestra juegos disponibles según el mínimo de reseñas. Base en `notebooks/borradores/antiguedadVsResenas.py` y `percentilesPorCohorte.py`. |
+| A-003 | Probar umbrales de reseñas y filtros de antigüedad | Pendiente | Resultados de cada quien; el notebook de Diana muestra juegos disponibles según el mínimo de reseñas. Base en `notebooks/02a_antiguedad_resenas.ipynb`, `02b_percentiles_cohorte.ipynb` y la tabla de umbrales de `02_eda.ipynb`. |
 | A-004 | Variables derivadas de desarrolladores | Pendiente | El notebook de Diana ya calcula los juegos previos de cada desarrollador con control de fuga. Falta el éxito histórico promedio y la "curva de aprendizaje". |
 | A-005 | Fecha de corte fija para la descarga de datos | Pendiente | Propuesta: adoptar la versión del 2026-11-19 que ya usamos y anotarla en `data/README.md`. |
 | A-006 | Acordar variables y repartir la limpieza | Se atiende en esta sesión | Puntos 3 y 6. |
