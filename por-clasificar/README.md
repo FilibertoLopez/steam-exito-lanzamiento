@@ -40,4 +40,4 @@ Cada quien trabaja en su propia carpeta; así se evitan conflictos al hacer `git
 
 | Archivo | Subido por | Fecha | Qué es | Destino propuesto |
 |---|---|---|---|---|
-|  |  |  |  |  |
+| [luis/EDA_LR_V1/ProyectoSteamEDA_LR_V1.ipynb](luis/EDA_LR_V1/ProyectoSteamEDA_LR_V1.ipynb) y [Avance_EDA_Steam.docx](luis/EDA_LR_V1/Avance_EDA_Steam.docx) | Luis | 2026-11-23 | EDA de Luis (acuerdo A-002): notebook de 14 celdas y documento de avance | `notebooks/borradores/` y `docs/03-analisis-exploratorio.md` |
