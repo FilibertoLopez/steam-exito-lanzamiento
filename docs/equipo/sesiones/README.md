@@ -8,7 +8,8 @@ Una fila por sesión de Zoom (F = Filiberto, D = Diana, A = Alejandra, L = Luis)
 
 ## Próxima sesión
 
-- **Fecha:** _por definir_
+- **Fecha:** 2026-11-25 (miércoles), 18:00 (hora de Ciudad de México)
+- **Lugar:** Zoom
 - **Temas previstos:** revisión de EDA individuales, elección de variables predictoras y reparto de la limpieza (ver [notas del 2026-11-22](2026-11-22-exploracion-de-datos.md#próxima-sesión)).
 - **Acuerdos a revisar:** A-002 a A-007, con fecha límite "Próxima sesión" ([acuerdos](../acuerdos.md#acuerdos-abiertos)).
 

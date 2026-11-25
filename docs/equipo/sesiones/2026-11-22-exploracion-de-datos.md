@@ -94,6 +94,6 @@ Primera sesión registrada; no hay acuerdos anteriores.
 
 ## Próxima sesión
 
-- **Fecha:** _por definir_
+- **Fecha:** 2026-11-25, 18:00, vía Zoom
 - **Temas:** revisión de EDA individuales, elección de variables predictoras, reparto de la limpieza.
 - **Preguntas abiertas:** trasladadas al [registro de sesiones](README.md#próxima-sesión).
