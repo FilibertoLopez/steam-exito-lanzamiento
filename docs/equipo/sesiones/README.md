@@ -1,10 +1,10 @@
 # Registro de sesiones
 
-Una fila por sesión de Zoom. Las **grabaciones no se suben al repositorio** (son pesadas): se comparten como enlace a la nube de Zoom o a la carpeta compartida del equipo. Los resúmenes y transcripciones sí se guardan aquí porque son texto.
+Una fila por sesión de Zoom (F = Filiberto, D = Diana, A = Alejandra, L = Luis). Las **grabaciones no se suben al repositorio** (son pesadas): se comparten como enlace a la nube de Zoom o a la carpeta compartida del equipo. Los resúmenes y transcripciones sí se guardan aquí porque son texto.
 
 | Fecha | Tema | Asistentes | Notas de sesión | Resumen Zoom | Transcripción | Grabación | Acuerdos |
 |---|---|---|---|---|---|---|---|
-| AAAA-MM-DD | _Tema_ | F, D, A, L | [notas](AAAA-MM-DD-tema.md) | [resumen](resumenes-zoom/AAAA-MM-DD-tema.md) | [vtt](transcripciones/AAAA-MM-DD-tema.vtt) | [Zoom](https://zoom.us/rec/share/...) | A-001, A-002 |
+| 2026-11-22 | Exploración de datos | F, D, A, L | [notas](2026-11-22-Exploración-de-datos.md) | [resumen](resumenes-zoom/2026-11-22-Exploración-de-datos.md) | [txt](transcripciones/2026-11-22-Exploración-de-datos.txt) | _pendiente_ | A-001 a A-004, D-001 a D-006 |
 
 ## Grabaciones
 
