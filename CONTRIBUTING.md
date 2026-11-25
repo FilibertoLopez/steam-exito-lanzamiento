@@ -25,6 +25,11 @@ Equipo: Diana, Alejandra, Luis y Filiberto. Ver [docs/equipo](docs/equipo/README
 - PDF, PPTX, DOCX y XLSX se suben con Git LFS (configurado en `.gitattributes`). Cada integrante debe ejecutar `git lfs install` una vez.
 - Las grabaciones de Zoom no se suben: se enlazan en el [registro de sesiones](docs/equipo/sesiones/README.md).
 
+## Obsidian
+
+- La bóveda es la raíz del repositorio. Solo se versiona `.obsidian/app.json` (formato de enlaces, carpeta de adjuntos y carpetas excluidas); si lo cambias, avisa al equipo.
+- El resto de `.obsidian/` (tema, ventanas abiertas, atajos, plugins, marcadores) es personal y Git lo ignora, así que cada quien puede configurarlo a su gusto sin generar conflictos.
+
 ## Material sin lugar definido
 
 - Súbelo a tu carpeta en [`por-clasificar/`](por-clasificar/README.md) y regístralo en su tabla.
