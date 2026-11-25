@@ -49,7 +49,7 @@ Registradas en [acuerdos.md](../acuerdos.md#decisiones-vigentes) como D-001 a D-
 - Separar etiquetas de marketing (*Indie*, *Early Access*, *Free to Play*) de los géneros.
 - No usar el nombre del desarrollador; derivar variables (juegos previos, éxito histórico promedio).
 
-Decisiones técnicas por formalizar en [decisiones](../../decisiones/): variable objetivo ([0001](../../decisiones/0001-variable-objetivo.md)), mínimo de reseñas ([0002](../../decisiones/0002-minimo-resenas.md)) y corte temporal ([0003](../../decisiones/0003-particion-temporal.md)).
+Decisiones técnicas por formalizar en [decisiones](../../decisiones/): variable objetivo ([0001](../../decisiones/0001-variable-objetivo.md)), mínimo de reseñas ([0002](../../decisiones/0002-minimo-de-resenas.md)) y corte temporal ([0003](../../decisiones/0003-particion-temporal.md)).
 
 ## Riesgos
 
