@@ -4,15 +4,15 @@ tema: Exploración de datos
 hora: 12:07–13:45
 asistentes: [Filiberto, Diana, Alejandra, Luis]
 moderador: Filiberto
-grabacion: https://us06web.zoom.us/rec/share/KMSer_E2vuT2Soo-Bg_wwVoEhs55-5wlIRt8xKIAZ09ZIuJXAZWPwCUpCdLMOwPh.hEf57Mp54VvxGSv1 
-Código de acceso: 6PXv&AUu
+grabacion: https://us06web.zoom.us/rec/share/KMSer_E2vuT2Soo-Bg_wwVoEhs55-5wlIRt8xKIAZ09ZIuJXAZWPwCUpCdLMOwPh.hEf57Mp54VvxGSv1
+codigo_grabacion: "6PXv&AUu"
 resumen_zoom: resumenes-zoom/2026-11-22-Exploración-de-datos.md
 transcripcion: transcripciones/2026-11-22-Exploración-de-datos.txt
 ---
 
 # 2026-11-22 Exploración de datos
 
-Sesión por Zoom de 12:07 a 13:45 (≈ 1 h 38 min). Asistieron los cuatro integrantes; Diana se unió unos minutos después del inicio. Fuentes: [resumen de Zoom](resumenes-zoom/2026-11-22-Exploración-de-datos.md) y [transcripción](transcripciones/2026-11-22-Exploración-de-datos.txt).
+Sesión por Zoom de 12:07 a 13:45 (≈ 1 h 38 min). Asistieron los cuatro integrantes; Diana se unió unos minutos después del inicio. Fuentes: [resumen de Zoom](resumenes-zoom/2026-11-22-Exploración-de-datos.md), [transcripción](transcripciones/2026-11-22-Exploración-de-datos.txt) y [grabación en Zoom](https://us06web.zoom.us/rec/share/KMSer_E2vuT2Soo-Bg_wwVoEhs55-5wlIRt8xKIAZ09ZIuJXAZWPwCUpCdLMOwPh.hEf57Mp54VvxGSv1) (código de acceso: `6PXv&AUu`).
 
 ## Agenda
 

@@ -4,6 +4,7 @@ tema:
 asistentes: [Filiberto, Diana, Alejandra, Luis]
 moderador: 
 grabacion: 
+codigo_grabacion: 
 resumen_zoom: resumenes-zoom/AAAA-MM-DD-tema.md
 transcripcion: transcripciones/AAAA-MM-DD-tema.vtt
 ---
