@@ -1,6 +1,6 @@
 ## Resultados Clave
 
-El equipo completó la integración del análisis exploratorio de datos (EDA) unificado y estructuró el repositorio en GitHub con documentación, acuerdos, decisiones y tareas asignadas por sprint. Sari Alejandra presentó un plan detallado de trabajo colaborativo con reglas de integración, pipeline modular y revisión cruzada entre miembros. El primer sprint tiene como objetivo dejar todo listo para correr el primer modelo predictivo, con entrega de tareas individuales para el **domingo** y reunión de cierre el **lunes a las 9:05 p.m.**
+El equipo completó la integración del análisis exploratorio de datos (EDA) unificado y estructuró el repositorio en GitHub con documentación, acuerdos, decisiones y tareas asignadas por sprint. Alejandra presentó un plan detallado de trabajo colaborativo con reglas de integración, pipeline modular y revisión cruzada entre miembros. El primer sprint tiene como objetivo dejar todo listo para correr el primer modelo predictivo, con entrega de tareas individuales para el **domingo** y reunión de cierre el **lunes a las 9:05 p.m.**
 
 ---
 
@@ -14,7 +14,7 @@ El equipo completó la integración del análisis exploratorio de datos (EDA) un
 - **Desarrollador y publisher:** se conservan mediante variables derivadas a partir de su historial, no como variables directas.
 - **Etiquetas de marketing** (ej. *Free to Play*): se separan de los géneros en una variable distinta.
 - **Registro atípico eliminado:** juego con precio de $1,007 USD excluido del dataset.
-- **Datos de referencia:** se usará la descarga realizada por Sari Alejandra el día anterior como dataset congelado base.
+- **Datos de referencia:** se usará la descarga realizada por Alejandra el día anterior como dataset congelado base.
 - **Lenguaje de código:** Python como estándar del equipo; R disponible solo si algún miembro lo requiere individualmente.
 - **Convención de nombres:** *camelCase* (primera palabra en minúscula, siguientes con mayúscula inicial) para estandarizar variables y funciones.
 
@@ -51,22 +51,22 @@ El objetivo del sprint es construir un **pipeline modular de extremo a extremo**
 
 ### Revisión Cruzada Asignada
 
-- **Filiberto** revisa a **Sari Alejandra**
-- **Sari Alejandra** revisa a **Diana**
+- **Filiberto** revisa a **Alejandra**
+- **Alejandra** revisa a **Diana**
 - **Diana** revisa a **Luis Alberto**
 - **Luis Alberto** revisa a **Filiberto**
 
 ### Tareas por Miembro
 
 - **Filiberto:** limpieza básica del dataset y responsable del pipeline principal.
-- **Sari Alejandra:** análisis de sensibilidad de umbrales (reseñas mínimas y antigüedad) para evaluar impacto en el dataset y calidad del modelo.
+- **Alejandra:** análisis de sensibilidad de umbrales (reseñas mínimas y antigüedad) para evaluar impacto en el dataset y calidad del modelo.
 - **Diana y Luis Alberto:** funciones de ingeniería de variables y limpieza complementaria (ej. filtrar registros que no son juegos).
 
 ---
 
 ## EDA Unificado y Hallazgos Relevantes
 
-Sari Alejandra integró los análisis exploratorios individuales de todos los miembros en un notebook unificado (`02_eda_unificado`), disponible en la rama de recuperación del repositorio.
+Alejandra integró los análisis exploratorios individuales de todos los miembros en un notebook unificado (`02_eda_unificado`), disponible en la rama de recuperación del repositorio.
 
 - Todas las **imágenes y tablas** del EDA están organizadas en `reports/figures/` y `reports/metrics/`.
 - Se identificó que la **correlación entre dos variables analizadas es de apenas 0.01**, lo que indica una asociación débil sin impacto significativo en el modelo.
@@ -98,7 +98,7 @@ El equipo adoptó **GitHub Issues** como herramienta de seguimiento de tareas de
 ## Elementos de Acción
 
 - **Todos los miembros:** completar sus funciones asignadas del sprint (limpieza e ingeniería de variables) antes del **domingo**.
-- **Sari Alejandra:** subir el dataset congelado (descarga del día anterior) al directorio `data/raw/` del repositorio.
+- **Alejandra:** subir el dataset congelado (descarga del día anterior) al directorio `data/raw/` del repositorio.
 - **Filiberto:** enviar invitación de Zoom para la reunión del lunes a las **9:05 p.m.**
 - **Filiberto:** actualizar el documento de acuerdos y decisiones tras cada sesión.
 - **Todos:** revisar la tarea asignada del compañero según el esquema de revisión cruzada antes de la reunión del lunes.

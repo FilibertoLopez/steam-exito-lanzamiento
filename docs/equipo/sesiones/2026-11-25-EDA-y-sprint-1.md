@@ -15,7 +15,7 @@ agenda: 2026-11-25-variables-y-limpieza.md
 
 Sesión por Zoom de 18:08 a 18:52 (≈ 45 min). Asistieron los cuatro integrantes; Alejandra se conectó a las 18:08 y Diana a las 18:14. Fuentes: [resumen de Zoom](resumenes-zoom/2026-11-25-EDA-y-sprint-1.md) y [transcripción](transcripciones/2026-11-25-EDA-y-sprint-1.txt). La agenda preparada está en [2026-11-25-variables-y-limpieza](2026-11-25-variables-y-limpieza.md); la sesión no la siguió punto por punto, sino que se centró en el recorrido del repositorio y en el plan del Sprint 1.
 
-> La transcripción empieza a las 17:44, antes de la sesión, y hasta las 18:08 contiene audio ambiental del micrófono de Filiberto. Se conserva tal cual la generó Zoom.
+> La transcripción empieza a las 18:03, con la plática previa al inicio formal; se quitó el audio ambiental anterior a la sesión.
 
 ## Agenda (como ocurrió)
 
@@ -130,11 +130,11 @@ El resumen automático tiene imprecisiones; esta nota es la versión que manda:
 | Dice el resumen | Según el repositorio y la transcripción |
 |---|---|
 | Juego con precio de «$1,007 USD» | Son 2 registros de 107,500 USD, ambos de 2026 (EDA §2; `config.PRECIO_MAX_VALIDO`). D-004 decía 107,000. |
-| «Filiberto revisa a Sari Alejandra; Sari Alejandra a Diana; Diana a Luis; Luis a Filiberto» | En la sesión, Alejandra leyó en voz alta la tabla *Autor → Revisa* de las reglas de integración; esa tabla y cada tarea de [sprint-1-tareas.md](../sprint-1-tareas.md) dicen lo contrario: **Alejandra revisa a Filiberto, Diana a Alejandra, Luis a Diana y Filiberto a Luis**. Vale la tabla del repositorio; confirmarlo el lunes 30. |
+| «Filiberto revisa a Alejandra; Alejandra a Diana; Diana a Luis; Luis a Filiberto» | En la sesión, Alejandra leyó en voz alta la tabla *Autor → Revisa* de las reglas de integración; esa tabla y cada tarea de [sprint-1-tareas.md](../sprint-1-tareas.md) dicen lo contrario: **Alejandra revisa a Filiberto, Diana a Alejandra, Luis a Diana y Filiberto a Luis**. Vale la tabla del repositorio; confirmarlo el lunes 30. |
 | Notebook `02_eda_unificado` | Es `notebooks/02_eda.ipynb` (título: «02 Análisis exploratorio unificado»). |
 | Tareas en `docs/equipo/sprint_1` | Es [docs/equipo/sprint-1-tareas.md](../sprint-1-tareas.md). |
 | Datos (≈ 1 GB) «pendientes de subir» | Ya están en `data/raw/` en 8 partes del parquet *slim* (PR #23, con merge el 2026-11-25). |
-| La sensibilidad, a cargo de «Sari Alejandra» como tarea única | Alejandra también tiene el objetivo, la muestra y la partición (S1-10, S1-11, S1-13). Diana tiene el historial y la auditoría Pre\*; Luis, los géneros, las categorías y los idiomas. |
+| La sensibilidad, a cargo de «Alejandra» como tarea única | Alejandra también tiene el objetivo, la muestra y la partición (S1-10, S1-11, S1-13). Diana tiene el historial y la auditoría Pre\*; Luis, los géneros, las categorías y los idiomas. |
 | Correlación de 0.01 «entre dos variables analizadas» | Es idiomas contra proporción de reseñas positivas (A-007). |
 
 ## Revisión de por-clasificar
