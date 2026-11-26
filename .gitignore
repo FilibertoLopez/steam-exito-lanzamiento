@@ -8,6 +8,7 @@ venv/
 
 # Datos y modelos (no versionar)
 data/raw/*
+!data/raw/steam_parte_*.parquet
 data/interim/*
 data/processed/*
 !data/**/.gitkeep

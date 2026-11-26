@@ -28,7 +28,7 @@ descargar el dataset de Kaggle**: cambia todos los días y rompería la reproduc
 
 | Carpeta | Contenido | ¿Se versiona? |
 |---|---|---|
-| `raw/` | `steam_games_slim.parquet` o las partes `steam_parte_*.parquet` | No |
+| `raw/` | `steam_games_slim.parquet` o las partes `steam_parte_*.parquet` | Sí (8 archivos congelados) |
 | `interim/` | Resultados intermedios de limpieza | No |
 | `processed/` | Datos listos para modelar y partición | No |
 | `sample/` | Muestra pequeña con semilla fija | Sí |
