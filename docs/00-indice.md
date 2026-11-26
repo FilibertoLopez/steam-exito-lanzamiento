@@ -19,6 +19,7 @@ Documentación del Proyecto Final. Ábrela en Obsidian (la bóveda es la carpeta
 - [0001 Variable objetivo](decisiones/0001-variable-objetivo.md)
 - [0002 Mínimo de reseñas](decisiones/0002-minimo-de-resenas.md)
 - [0003 Partición temporal](decisiones/0003-particion-temporal.md)
+- [0004 Periodo de la muestra](decisiones/0004-periodo-de-la-muestra.md)
 
 ## Equipo
 

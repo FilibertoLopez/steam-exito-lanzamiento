@@ -19,7 +19,7 @@ Una fila por sesión de Zoom (F = Filiberto, D = Diana, A = Alejandra, L = Luis)
 
 | Pregunta | Origen | Contexto |
 |---|---|---|
-| ¿Se confirma D-002 (excluir 2025 y 2026)? ¿El periodo empieza en 2010, 2015, 2019 o sin límite inferior? | [2026-11-22](2026-11-22-exploracion-de-datos.md#preguntas-abiertas), [2026-11-25](2026-11-25-EDA-y-sprint-1.md#preguntas-abiertas) | Filiberto señaló el 25-nov que D-002 «todavía no» se decide. La evidencia sale de S1-12 (sensibilidad); decisión [0003](../../decisiones/0003-particion-temporal.md) |
+| ¿Se confirma D-002 (excluir 2025 y 2026)? ¿El periodo empieza en 2010, 2015, 2019 o sin límite inferior? | [2026-11-22](2026-11-22-exploracion-de-datos.md#preguntas-abiertas), [2026-11-25](2026-11-25-EDA-y-sprint-1.md#preguntas-abiertas) | Filiberto señaló el 25-nov que D-002 «todavía no» se decide. La evidencia sale de S1-12 (sensibilidad); decisión [0004](../../decisiones/0004-periodo-de-la-muestra.md). Mientras tanto: hasta 2024 y sin límite inferior (D-022) |
 | ¿Las variables derivadas de desarrollador y publisher (D-009) entran en el modelo final? | [2026-11-25](2026-11-25-EDA-y-sprint-1.md#preguntas-abiertas) | Depende de S1-07, S1-08 y de la ablación del Sprint 2 |
 | ¿La plataforma (Windows, Mac, Linux) diferencia, si casi todos los juegos son para Windows? | [2026-11-22](2026-11-22-exploracion-de-datos.md#preguntas-abiertas) | No se trató el 25-nov. El EDA unificado indica que Mac y Linux se asocian con +0.05 sobre su cohorte; Windows es casi constante. Se resuelve con S1-03 |
 
