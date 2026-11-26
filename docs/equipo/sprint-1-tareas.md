@@ -2,12 +2,14 @@
 titulo: Sprint 1 — Limpieza e ingeniería de variables (hasta el baseline)
 ubicacion: docs/equipo/sprint-1-tareas.md
 periodo: 2026-11-25 a 2026-11-30
-actualizado: 2026-11-25
+actualizado: 2026-11-25 (después de la sesión)
 ---
 
 # Sprint 1: limpieza e ingeniería de variables
 
-**Cierre del sprint: lunes 30 de noviembre.** Entrega final del reporte y del repositorio: martes 8 de diciembre, 11:59 p. m.
+**Cierre del sprint: lunes 30 de noviembre, reunión por Zoom a las 21:05.** Entrega final del reporte y del repositorio: martes 8 de diciembre, 11:59 p. m.
+
+> **Sesión del 2026-11-25** ([nota](sesiones/2026-11-25-EDA-y-sprint-1.md)): el equipo aprobó este plan, el reparto de tareas y las reglas de integración. Entregas individuales a más tardar el **domingo 29** (A-017) y revisión cruzada antes de la reunión del lunes 30 (A-018). El esqueleto, la versión congelada de los datos (`data/raw/`, PR #23) y los 18 issues ya están en `main`.
 
 Cada tarea está lista para pegarse como issue con la plantilla *Tarea* (área, responsable, acuerdo, entregable). Antes de empezar, lee [reglas-de-integracion.md](reglas-de-integracion.md).
 
@@ -17,8 +19,8 @@ Cada tarea está lista para pegarse como issue con la plantilla *Tarea* (área, 
 |---|---|
 | **Mié 25 – jue 26** | Filiberto hace merge del esqueleto (`src/`, `tests/`, EDA, `config.py`), congela y comparte la versión de datos y crea los issues. Todos: leer reglas, crear rama, correr `pytest`. Cerrar las decisiones de la sección "Decisiones previas". |
 | **Jue 26 – sáb 28** | Cada quien implementa sus funciones y sus pruebas en su rama. |
-| **Dom 29** | PR abiertos y revisión cruzada. A más tardar a medianoche, todo con merge o con comentarios resueltos. |
-| **Lun 30** | Integración de Filiberto: pipeline de punta a punta, notebooks 03 y 04, `acuerdos.md`. Borradores del reporte entregados. **Cierre del sprint.** |
+| **Dom 29** | Fecha límite de las tareas individuales (A-017): PR abiertos y revisión cruzada. A más tardar a medianoche, todo con merge o con comentarios resueltos. |
+| **Lun 30** | Reunión de cierre por Zoom a las 21:05 (A-019). Integración de Filiberto: pipeline de punta a punta, notebooks 03 y 04, `acuerdos.md`. Borradores del reporte entregados. **Cierre del sprint.** |
 | Mar 1 – mar 8 de dic. | Sprint 2: baseline, modelos, ajuste, interpretación; cierre del reporte, del repo y de la presentación. |
 
 ## Decisiones previas (cerrar el 26 de noviembre)
@@ -27,8 +29,8 @@ Con estos valores en `config.py` nadie queda bloqueado. Propuesta por defecto, b
 
 | Parámetro | Propuesta | Respaldo |
 |---|---|---|
-| Umbral de reseñas | 50, con sensibilidad a 30 y 100 | Sesión del 22-nov; EDA §3.1 (la desviación baja de 0.238 a 0.156) |
-| Periodo | Hasta 2024 (D-002); sin límite inferior (la sensibilidad desde 2019 la corre S1-12) | D-002 |
+| Umbral de reseñas | 50, con sensibilidad a 30 y 100 (confirmado como valor por defecto el 25-nov, D-014) | Sesión del 22-nov; EDA §3.1 (la desviación baja de 0.238 a 0.156) |
+| Periodo | Hasta 2024 (D-002); sin límite inferior (la sensibilidad desde 2019 la corre S1-12). **Abierto:** el 25-nov se señaló que D-002 y el año de inicio no están decididos | D-002 |
 | Pesos de muestra | Ninguno | D-008 |
 | Objetivo principal | `y_pct_pos`; secundario `y_bueno` (cuartil superior de la cohorte) | D-003; EDA §3.2 |
 | Antigüedad mínima | No se agrega regla: D-002 la cubre | EDA §3.3 |

@@ -5,22 +5,25 @@ Una fila por sesión de Zoom (F = Filiberto, D = Diana, A = Alejandra, L = Luis)
 | Fecha | Tema | Asistentes | Notas de sesión | Resumen Zoom | Transcripción | Grabación | Acuerdos |
 |---|---|---|---|---|---|---|---|
 | 2026-11-22 | Exploración de datos | F, D, A, L | [notas](2026-11-22-exploracion-de-datos.md) | [resumen](resumenes-zoom/2026-11-22-exploracion-de-datos.md) | [txt](transcripciones/2026-11-22-exploracion-de-datos.txt) | [Zoom](https://us06web.zoom.us/rec/share/KMSer_E2vuT2Soo-Bg_wwVoEhs55-5wlIRt8xKIAZ09ZIuJXAZWPwCUpCdLMOwPh.hEf57Mp54VvxGSv1) (código: `6PXv&AUu`) | A-001 a A-007, D-001 a D-009 |
+| 2026-11-25 | EDA unificado y plan del Sprint 1 ([agenda](2026-11-25-variables-y-limpieza.md)) | F, D, A, L | [notas](2026-11-25-EDA-y-sprint-1.md) | [resumen](resumenes-zoom/2026-11-25-EDA-y-sprint-1.md) | [txt](transcripciones/2026-11-25-EDA-y-sprint-1.txt) | _pendiente_ | A-017 a A-020, D-014 a D-019; confirma A-008 a A-016 y D-010 a D-013 |
 
 ## Próxima sesión
 
-- **Fecha:** 2026-11-25 (miércoles), 18:00 (hora de Ciudad de México)
-- **Lugar:** Zoom
-- **Agenda:** [2026-11-25-variables-y-limpieza](2026-11-25-variables-y-limpieza.md)
-- **Temas previstos:** revisión de EDA individuales, elección de variables predictoras y reparto de la limpieza (ver [notas del 2026-11-22](2026-11-22-exploracion-de-datos.md#próxima-sesión)).
-- **Acuerdos a revisar:** A-002 a A-007, con fecha límite "Próxima sesión" ([acuerdos](../acuerdos.md#acuerdos-abiertos)).
+- **Fecha:** 2026-11-30 (lunes), 21:05 (hora de Ciudad de México), después de la clase de Filiberto
+- **Lugar:** Zoom (Filiberto envía la invitación, A-019)
+- **Temas previstos:** cierre del Sprint 1, revisión del pipeline integrado de punta a punta, arranque y plan del Sprint 2 (A-014). Ver [notas del 2026-11-25](2026-11-25-EDA-y-sprint-1.md#próxima-sesión).
+- **Antes de la sesión:** funciones del Sprint 1 con pruebas y PR abiertos a más tardar el domingo 29 (A-017) y revisión cruzada hecha (A-018).
+- **Acuerdos a revisar:** A-003, A-004, A-007 a A-010 y A-012 a A-019 ([acuerdos](../acuerdos.md#acuerdos-abiertos)).
 
 ### Preguntas abiertas pendientes
 
 | Pregunta | Origen | Contexto |
 |---|---|---|
-| Umbral mínimo de reseñas: ¿30, 50 o 100? (también se mencionó 5) | [2026-11-22](2026-11-22-exploracion-de-datos.md#preguntas-abiertas) | Relacionada con A-003 y la decisión [0002](../../decisiones/0002-minimo-de-resenas.md) |
-| ¿La plataforma (Windows, Mac, Linux) diferencia, si casi todos los juegos son para Windows? | [2026-11-22](2026-11-22-exploracion-de-datos.md#preguntas-abiertas) | Luis propuso analizar su relación con las reseñas |
-| Inicio del periodo: ¿desde 2019 (propuesta de Alejandra) o todo el historial? | [2026-11-22](2026-11-22-exploracion-de-datos.md#preguntas-abiertas) | También se mencionaron 2018 y 2020; relacionada con D-002 y la decisión [0003](../../decisiones/0003-particion-temporal.md) |
+| ¿Se confirma D-002 (excluir 2025 y 2026)? ¿El periodo empieza en 2010, 2015, 2019 o sin límite inferior? | [2026-11-22](2026-11-22-exploracion-de-datos.md#preguntas-abiertas), [2026-11-25](2026-11-25-EDA-y-sprint-1.md#preguntas-abiertas) | Filiberto señaló el 25-nov que D-002 «todavía no» se decide. La evidencia sale de S1-12 (sensibilidad); decisión [0003](../../decisiones/0003-particion-temporal.md) |
+| ¿Las variables derivadas de desarrollador y publisher (D-009) entran en el modelo final? | [2026-11-25](2026-11-25-EDA-y-sprint-1.md#preguntas-abiertas) | Depende de S1-07, S1-08 y de la ablación del Sprint 2 |
+| ¿La plataforma (Windows, Mac, Linux) diferencia, si casi todos los juegos son para Windows? | [2026-11-22](2026-11-22-exploracion-de-datos.md#preguntas-abiertas) | No se trató el 25-nov. El EDA unificado indica que Mac y Linux se asocian con +0.05 sobre su cohorte; Windows es casi constante. Se resuelve con S1-03 |
+
+Resueltas el 2026-11-25: el **umbral mínimo de reseñas** queda en 50 por defecto (D-014), con el valor final según la sensibilidad (S1-12).
 
 Al resolver una pregunta en sesión, regístrala en [acuerdos](../acuerdos.md) como acuerdo o decisión y bórrala de esta tabla.
 
