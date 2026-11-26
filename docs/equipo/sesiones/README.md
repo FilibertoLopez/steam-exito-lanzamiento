@@ -5,7 +5,7 @@ Una fila por sesión de Zoom (F = Filiberto, D = Diana, A = Alejandra, L = Luis)
 | Fecha | Tema | Asistentes | Notas de sesión | Resumen Zoom | Transcripción | Grabación | Acuerdos |
 |---|---|---|---|---|---|---|---|
 | 2026-11-22 | Exploración de datos | F, D, A, L | [notas](2026-11-22-exploracion-de-datos.md) | [resumen](resumenes-zoom/2026-11-22-exploracion-de-datos.md) | [txt](transcripciones/2026-11-22-exploracion-de-datos.txt) | [Zoom](https://us06web.zoom.us/rec/share/KMSer_E2vuT2Soo-Bg_wwVoEhs55-5wlIRt8xKIAZ09ZIuJXAZWPwCUpCdLMOwPh.hEf57Mp54VvxGSv1) (código: `6PXv&AUu`) | A-001 a A-007, D-001 a D-009 |
-| 2026-11-25 | EDA unificado y plan del Sprint 1 ([agenda](2026-11-25-variables-y-limpieza.md)) | F, D, A, L | [notas](2026-11-25-EDA-y-sprint-1.md) | [resumen](resumenes-zoom/2026-11-25-EDA-y-sprint-1.md) | [txt](transcripciones/2026-11-25-EDA-y-sprint-1.txt) | _pendiente_ | A-017 a A-020, D-014 a D-019; confirma A-008 a A-016 y D-010 a D-013 |
+| 2026-11-25 | EDA unificado y plan del Sprint 1 ([agenda](2026-11-25-variables-y-limpieza.md)) | F, D, A, L | [notas](2026-11-25-EDA-y-sprint-1.md) | [resumen](resumenes-zoom/2026-11-25-EDA-y-sprint-1.md) | [txt](transcripciones/2026-11-25-EDA-y-sprint-1.txt) | [Zoom](https://us06web.zoom.us/rec/share/mjXNAyWh82GbfD91i3YbjEi222hi4KIu9pWpb5KuxM1pOwPN-wsJ2bEh0dkBC-jZ.TijxRE8Xf9C7GRUl?startTime=1795650233000) (código: `y@Fo%+V2`) | A-017 a A-020, D-014 a D-019; confirma A-008 a A-016 y D-010 a D-013 |
 
 ## Próxima sesión
 

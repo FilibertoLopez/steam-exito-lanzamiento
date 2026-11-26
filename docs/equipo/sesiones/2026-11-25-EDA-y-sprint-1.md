@@ -4,8 +4,8 @@ tema: EDA unificado y plan del Sprint 1
 hora: 18:08–18:52
 asistentes: [Filiberto, Diana, Alejandra, Luis]
 moderador: Filiberto
-grabacion: 
-codigo_grabacion: 
+grabacion: https://us06web.zoom.us/rec/share/mjXNAyWh82GbfD91i3YbjEi222hi4KIu9pWpb5KuxM1pOwPN-wsJ2bEh0dkBC-jZ.TijxRE8Xf9C7GRUl?startTime=1795650233000
+codigo_grabacion: "y@Fo%+V2"
 resumen_zoom: resumenes-zoom/2026-11-25-EDA-y-sprint-1.md
 transcripcion: transcripciones/2026-11-25-EDA-y-sprint-1.txt
 agenda: 2026-11-25-variables-y-limpieza.md
@@ -13,7 +13,7 @@ agenda: 2026-11-25-variables-y-limpieza.md
 
 # 2026-11-25 EDA unificado y plan del Sprint 1
 
-Sesión por Zoom de 18:08 a 18:52 (≈ 45 min). Asistieron los cuatro integrantes; Alejandra se conectó a las 18:08 y Diana a las 18:14. Fuentes: [resumen de Zoom](resumenes-zoom/2026-11-25-EDA-y-sprint-1.md) y [transcripción](transcripciones/2026-11-25-EDA-y-sprint-1.txt). La agenda preparada está en [2026-11-25-variables-y-limpieza](2026-11-25-variables-y-limpieza.md); la sesión no la siguió punto por punto, sino que se centró en el recorrido del repositorio y en el plan del Sprint 1.
+Sesión por Zoom de 18:08 a 18:52 (≈ 45 min). Asistieron los cuatro integrantes; Alejandra se conectó a las 18:08 y Diana a las 18:14. Fuentes: [resumen de Zoom](resumenes-zoom/2026-11-25-EDA-y-sprint-1.md) [transcripción](transcripciones/2026-11-25-EDA-y-sprint-1.txt) y [grabación en Zoom](https://us06web.zoom.us/rec/share/mjXNAyWh82GbfD91i3YbjEi222hi4KIu9pWpb5KuxM1pOwPN-wsJ2bEh0dkBC-jZ.TijxRE8Xf9C7GRUl?startTime=1795650233000) (código de acceso: `y@Fo%+V2`). La agenda preparada está en [2026-11-25-variables-y-limpieza](2026-11-25-variables-y-limpieza.md); la sesión no la siguió punto por punto, sino que se centró en el recorrido del repositorio y en el plan del Sprint 1.
 
 > La transcripción empieza a las 18:03, con la plática previa al inicio formal; se quitó el audio ambiental anterior a la sesión.
 
@@ -115,7 +115,7 @@ Copiados a [acuerdos.md](../acuerdos.md).
 | A-013 | Pendiente | Se pospuso en la sesión («eso lo podemos ver después»). |
 | A-014 | Pendiente | Se revisa el lunes 30 al cerrar el Sprint 1. |
 | A-015 | En curso | Los issues tienen etiqueta de responsable; siguen sin *assignee* en GitHub. |
-| A-016 | En curso | Responsable: Filiberto. Resumen y transcripción subidos; falta el enlace a la grabación. |
+| A-016 | En curso | Responsable: Filiberto. Resumen, transcripción y enlace a la grabación subidos. |
 
 ## Preguntas abiertas
 
