@@ -11,7 +11,7 @@ Una fila por sesión de Zoom (F = Filiberto, D = Diana, A = Alejandra, L = Luis)
 
 - **Fecha:** 2026-11-30 (lunes), 21:05 (hora de Ciudad de México), después de la clase de Filiberto
 - **Lugar:** Zoom (Filiberto envía la invitación, A-019)
-- **Temas previstos:** cierre del Sprint 1, revisión del pipeline integrado de punta a punta, arranque y plan del Sprint 2 (A-014). Ver [notas del 2026-11-25](2026-11-25-EDA-y-sprint-1.md#próxima-sesión).
+- **Temas previstos:** cierre del Sprint 1, revisión del pipeline integrado de punta a punta, arranque y plan del Sprint 2 (A-014) y la pregunta sobre duplicados de contenido (ver la tabla siguiente). Ver [notas del 2026-11-25](2026-11-25-EDA-y-sprint-1.md#próxima-sesión).
 - **Antes de la sesión:** funciones del Sprint 1 con pruebas y PR abiertos a más tardar el domingo 29 (A-017) y revisión cruzada hecha (A-018).
 - **Acuerdos a revisar:** A-003, A-004, A-007 a A-010 y A-012 a A-019 ([acuerdos](../acuerdos.md#acuerdos-abiertos)).
 
@@ -22,6 +22,7 @@ Una fila por sesión de Zoom (F = Filiberto, D = Diana, A = Alejandra, L = Luis)
 | ¿Se confirma D-002 (excluir 2025 y 2026)? ¿El periodo empieza en 2010, 2015, 2019 o sin límite inferior? | [2026-11-22](2026-11-22-exploracion-de-datos.md#preguntas-abiertas), [2026-11-25](2026-11-25-EDA-y-sprint-1.md#preguntas-abiertas) | Filiberto señaló el 25-nov que D-002 «todavía no» se decide. La evidencia sale de S1-12 (sensibilidad); decisión [0004](../../decisiones/0004-periodo-de-la-muestra.md). Mientras tanto: hasta 2024 y sin límite inferior (D-022) |
 | ¿Las variables derivadas de desarrollador y publisher (D-009) entran en el modelo final? | [2026-11-25](2026-11-25-EDA-y-sprint-1.md#preguntas-abiertas) | Depende de S1-07, S1-08 y de la ablación del Sprint 2 |
 | ¿La plataforma (Windows, Mac, Linux) diferencia, si casi todos los juegos son para Windows? | [2026-11-22](2026-11-22-exploracion-de-datos.md#preguntas-abiertas) | No se trató el 25-nov. El EDA unificado indica que Mac y Linux se asocian con +0.05 sobre su cohorte; Windows es casi constante. Se resuelve con S1-03 |
+| ¿Conservamos solo la ficha con más reseñas de cada grupo de duplicados de contenido (mismo nombre, fecha y desarrollador, distinto `app_id`)? | [Issue #3](https://github.com/FilibertoLopez/steam-exito-lanzamiento/issues/3#issuecomment-7206821360) (S1-01, 2026-11-26) | 67 grupos (179 filas) en los datos limpios; 61 grupos (141 filas) en la muestra: se quitarían 80 filas (0.3 %). Cada ficha tiene sus propias reseñas y no hay fuga, porque la partición no parte un mismo día (0003). Propuesta de Filiberto: conservar todas. Se decide el 2026-11-30, junto con la sensibilidad de S1-12 |
 
 Resueltas el 2026-11-25: el **umbral mínimo de reseñas** queda en 50 por defecto (D-014), con el valor final según la sensibilidad (S1-12).
 
