@@ -3,9 +3,15 @@
 Son pasos ``df -> df`` (decorador ``pasoLimpieza``). Se ejecutan en este orden por el pipeline:
 convertirTipos -> limpiarFechas -> limpiarPrecios -> marcarSinDato.
 """
+import numpy as np
 import pandas as pd
 
+from steam_exito import config, parsers
 from steam_exito.contrato import pasoLimpieza
+
+COLUMNAS_PLATAFORMA = ["mac", "linux", "windows"]
+COLUMNAS_NUMERICAS = ["price", "positive", "negative"]
+VALORES_SIN_PROPIETARIOS = ["0 - 0", "0 .. 0"]
 
 
 @pasoLimpieza("tipos")
@@ -18,7 +24,13 @@ def convertirTipos(df: pd.DataFrame) -> pd.DataFrame:
     - ``price``, ``positive``, ``negative``: numéricos.
     Issue: S1-01.
     """
-    raise NotImplementedError("Pendiente: Filiberto (S1-01)")
+    df = df.copy()
+    for columna in COLUMNAS_PLATAFORMA:
+        df[columna] = parsers.aBooleano(df[columna])
+    df["achievements"] = pd.to_numeric(df["achievements"], errors="coerce").round().astype("Int64")
+    for columna in COLUMNAS_NUMERICAS:
+        df[columna] = pd.to_numeric(df[columna], errors="coerce")
+    return df
 
 
 @pasoLimpieza("fechas")
@@ -28,7 +40,11 @@ def limpiarFechas(df: pd.DataFrame) -> pd.DataFrame:
     También elimina fechas posteriores a ``config.VERSION_DATOS['fecha_max_lanzamiento']``.
     NO filtra por año: el filtro D-002 lo aplica ``muestra.filtrarMuestra``. Issue: S1-01.
     """
-    raise NotImplementedError("Pendiente: Filiberto (S1-01)")
+    df = df.copy()
+    df["release_date"] = pd.to_datetime(df["release_date"], errors="coerce", format="%Y-%m-%d")
+    fechaMax = pd.Timestamp(config.VERSION_DATOS["fecha_max_lanzamiento"])
+    valida = df["release_date"].notna() & (df["release_date"] <= fechaMax)
+    return df.loc[valida].reset_index(drop=True)
 
 
 @pasoLimpieza("precios")
@@ -38,7 +54,10 @@ def limpiarPrecios(df: pd.DataFrame) -> pd.DataFrame:
     Reglas: precio negativo -> error; precio nulo se conserva (juegos retirados,
     ``price_status == 'unavailable'``); ``price == 0`` es gratis y es un valor real. Issue: S1-01.
     """
-    raise NotImplementedError("Pendiente: Filiberto (S1-01)")
+    if (df["price"] < 0).any():
+        raise ValueError("limpiarPrecios: hay precios negativos")
+    atipico = df["price"] > config.PRECIO_MAX_VALIDO   # NaN > x es False: se conservan los nulos
+    return df.loc[~atipico].reset_index(drop=True)
 
 
 @pasoLimpieza("sin_dato")
@@ -52,4 +71,12 @@ def marcarSinDato(df: pd.DataFrame) -> pd.DataFrame:
       ``negative``/``achievements``/``price`` (el 0 es real).
     Devuelve las mismas filas. Issue: S1-01.
     """
-    raise NotImplementedError("Pendiente: Filiberto (S1-01)")
+    df = df.copy()
+    for columna in config.COLUMNAS_CERO_ES_NULO:
+        df[columna] = df[columna].mask(df[columna] == 0)
+    sinPropietarios = df["estimated_owners"].astype("string").str.strip().isin(VALORES_SIN_PROPIETARIOS)
+    df["estimated_owners"] = df["estimated_owners"].mask(sinPropietarios.fillna(False))
+    for columna in config.COLUMNAS_LISTA:
+        vacio = df[columna].map(parsers.esVacio).astype(bool)
+        df[columna] = df[columna].mask(vacio)
+    return df
