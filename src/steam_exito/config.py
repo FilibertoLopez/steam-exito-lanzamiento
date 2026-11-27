@@ -32,6 +32,7 @@ MESES_ANTIGUEDAD_HISTORIAL = 12        # solo juegos previos con >= N meses cuen
 OBJETIVO_PRINCIPAL = "y_pct_pos"       # D-003
 PESOS_DE_MUESTRA = None                # D-008: sin pesos por ahora
 PRECIO_MAX_VALIDO = 100_000            # D-004: los registros de 107,500 USD se eliminan
+CORTES_PRECIO = [0, 5, 10, 20, 40]     # S1-02: límites superiores (USD) de precio_rango 0..4; >40 es el rango 5 (EDA §5.1)
 
 FRACCION_TRAIN = 0.70                  # partición temporal por cuantiles de fecha
 FRACCION_VALID = 0.15
