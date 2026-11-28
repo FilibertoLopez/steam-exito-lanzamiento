@@ -2,7 +2,7 @@
 titulo: Sprint 1 — Limpieza e ingeniería de variables (hasta el baseline)
 ubicacion: docs/equipo/sprint-1-tareas.md
 periodo: 2026-11-25 a 2026-11-30
-actualizado: 2026-11-26
+actualizado: 2026-11-28
 ---
 
 # Sprint 1: limpieza e ingeniería de variables
@@ -189,7 +189,7 @@ Etiquetas: tipo: tarea, resp: Diana, status: pendiente
 | Tarea | Responsable | Rama | PR | Revisor | Status |
 |---|---|---|---|---|---|
 | S1-01 | Filiberto | `filiberto/s1-01-limpieza-basica` | [#25](https://github.com/FilibertoLopez/steam-exito-lanzamiento/pull/25) | Alejandra | En curso (PR en revisión) |
-| S1-02 | Filiberto | | | Alejandra | Pendiente |
+| S1-02 | Filiberto | `filiberto/s1-02-precio-fecha` | [#27](https://github.com/FilibertoLopez/steam-exito-lanzamiento/pull/27) | Alejandra | En curso (PR en revisión; depende de #25) |
 | S1-03 | Filiberto | | | Alejandra | Pendiente |
 | S1-04 | Luis | | | Filiberto | Pendiente |
 | S1-05 | Luis | | | Filiberto | Pendiente |
