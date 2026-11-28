@@ -36,6 +36,10 @@ PRECIO_MAX_VALIDO = 100_000            # D-004: los registros de 107,500 USD se 
 FRACCION_TRAIN = 0.70                  # partición temporal por cuantiles de fecha
 FRACCION_VALID = 0.15
 
+Z_WILSON = 1.96             # intervalo de Wilson al 95 %
+CUANTIL_BUENO = 0.75        # y_bueno = cuartil superior de la cohorte
+COHORTE_MIN_JUEGOS = 200    # años con menos juegos se agrupan en "<= año" (EDA 02b)
+
 # Disponibilidad temporal de las columnas (docs/02-diccionario-datos.md)
 COLUMNAS_POST = [
     "positive", "negative", "estimated_owners", "recommendations", "peak_ccu",
